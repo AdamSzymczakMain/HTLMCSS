@@ -1,13 +1,5 @@
 html {
   font-family: sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
   color: #444;
 }
 
@@ -76,4 +68,8 @@ a:hover {
   color: #c10770;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.navigation {
+  font-size: 12px;
 }
