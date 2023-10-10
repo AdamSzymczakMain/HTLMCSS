@@ -160,13 +160,3 @@ nav a:link:first-child {
 nav a:link:last-child {
   margin-right: 0px;
 }
-
-.box {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgba(0, 0, 0, .2);
-  }
-
-.black {
-  background: black;
