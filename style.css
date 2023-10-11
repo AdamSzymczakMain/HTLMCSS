@@ -129,7 +129,7 @@ a:hover {
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -159,4 +159,47 @@ nav a:link:first-child {
 }
 nav a:link:last-child {
   margin-right: 0px;
+}
+
+.image-author {
+  float: left;
+
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix ::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+article {
+  width: 900px;
+  float: left;
+  background-color: red;
+}
+
+aside {
+  width: 200px;
+  float: right;
+  background-color: blue;
+}
+
+footer {
+  float: both;
+  background-color: green;
 }
