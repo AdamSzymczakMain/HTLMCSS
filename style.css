@@ -88,6 +88,7 @@ ul {
 
 .related {
   list-style: none;
+  margin: 0;
 }
 
 .main-header {
@@ -104,8 +105,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 4px solid #1098ab;
   border-bottom: 4px solid #1098ab;
-  padding: 35px 0;
-  width: 400px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 
 a:link {
@@ -188,18 +189,15 @@ nav {
 }
 
 article {
-  width: 900px;
+  width: 825px;
   float: left;
-  background-color: red;
 }
 
 aside {
-  width: 200px;
+  width: 300px;
   float: right;
-  background-color: blue;
 }
 
 footer {
-  float: both;
-  background-color: green;
+  clear: both;
 }
