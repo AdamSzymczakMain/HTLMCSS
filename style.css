@@ -53,12 +53,12 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 p {
   font-size: 18px;
   line-height: 1.3;
-  margin-bottom: 15px;
 }
 
 li {
@@ -170,6 +170,7 @@ nav a:link:last-child {
 .row {
   display: flex;
   gap: 75px;
+  align-items: flex-start;
 }
 
 article {
@@ -193,4 +194,9 @@ aside {
 
 .content-image {
   display: block;
+}
+
+.related-photo {
+  display: flex;
+  align-content: space-around;
 }
