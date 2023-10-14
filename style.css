@@ -63,7 +63,6 @@ p {
 
 li {
   font-size: 15px;
-  margin-bottom: 5px;
 }
 
 li:last-child {
@@ -77,7 +76,7 @@ ul {
 }
 
 .related-author {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: bold;
   font-style: italic;
 }
@@ -192,11 +191,9 @@ aside {
   display: flex;
 }
 
-.content-image {
-  display: block;
-}
-
 .related-photo {
   display: flex;
-  align-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 10px;
 }
